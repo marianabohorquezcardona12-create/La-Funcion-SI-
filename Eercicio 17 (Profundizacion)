@@ -1,0 +1,13 @@
+//Programa Aprobacion_SENA//
+
+PROCESO  Aprobacion_SENA
+Definir nota Como Real
+    
+Escribir "Ingrese su nota:"
+Leer nota
+    
+SI nota >= 3.5 ENTONCES
+Escribir "Competencia Alcanzada"
+FINSI
+    
+FINPROCESO
