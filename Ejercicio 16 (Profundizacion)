@@ -1,0 +1,13 @@
+//Programa Control_Acceso//
+
+PROCESO Control_Acceso
+Definir edad Como Entero
+    
+Escribir "Ingrese su edad:"
+Leer edad
+    
+SI edad >= 18 ENTONCES
+Escribir "Bienvenido al laboratorio de robótica"
+FINSI
+    
+FINPROCESO 
