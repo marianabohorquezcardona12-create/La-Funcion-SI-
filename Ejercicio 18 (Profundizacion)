@@ -1,0 +1,14 @@
+//Programa numero_positivo//
+
+PROCESO Numero_Positivo
+Definir num Como Entero
+    
+Escribir "Ingrese un número:"
+Leer num
+    
+SI num > 0 ENTONCES
+Escribir "El número es positivo"
+
+FINSI
+    
+FINPROCESO
