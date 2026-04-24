@@ -1,0 +1,13 @@
+//Programa numero_par//
+
+PROCESO Numero_Par
+Definir num Como Entero
+    
+Escribir "Ingrese un número:"
+Leer num
+    
+SI num MOD 2 = 0 ENTONCES
+Escribir "El número es par"
+FINSI
+    
+FINPROCESO
